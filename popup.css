@@ -1,0 +1,49 @@
+#box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 150px;
+  padding: 12px;
+}
+
+h2 {
+  margin: 0;
+  padding-bottom: 4px;
+}
+
+button {
+  border-radius: 6px;
+  padding: 6px 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: .25rem;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  color: #fff;
+}
+
+#start {
+  background: #33bb9a;
+  margin-bottom: 6px;
+}
+
+#start:hover {
+  background-color: #2aa788;
+}
+
+#content {
+  font-size: 14px;
+  padding: 6px;
+  max-height: 250px;
+  overflow-y: scroll;
+}
+
+#content p {
+  border-bottom: 1px solid #80808036;
+  padding-bottom: 4px;
+}
+
+#content::-webkit-scrollbar {
+  display: none;
+}
